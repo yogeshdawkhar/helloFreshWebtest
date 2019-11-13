@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebUIAutomationtestSuite">
+
+	<test name="WebUIAutomationtest" preserve-order="true">
+		<classes>
+			<class name="com.hellofresh.testcases.CreateAccountTestCase" />
+			<class name="com.hellofresh.testcases.LogInTestCase" />
+			<class name="com.hellofresh.testcases.CheckOutPageTestCase" />
+		</classes>
+	</test>
+</suite>
